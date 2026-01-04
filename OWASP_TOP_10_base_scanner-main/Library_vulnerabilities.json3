@@ -1,0 +1,16 @@
+[
+  {
+    "id": "GHSA-7x7c-qm48-pq9c",
+    "package": "karma",
+    "version": [],
+    "ecosystem": "npm",
+    "description": "Details: karma prior to version 6.3.14 contains a cross-site scripting vulnerability."
+  },
+  {
+    "id": "GHSA-rc3x-jf5g-xvc5",
+    "package": "karma",
+    "version": [],
+    "ecosystem": "npm",
+    "description": "Details: Karma before 6.3.16 is vulnerable to Open Redirect due to missing validation of the return_url query parameter."
+  }
+]

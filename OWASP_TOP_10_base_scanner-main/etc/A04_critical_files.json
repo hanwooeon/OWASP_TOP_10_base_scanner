@@ -1,0 +1,24 @@
+{
+   "critical_files": [
+        ".env",
+        "config.php", 
+        "wp-config.php",
+        "settings.py",
+        "database.yml",
+        "credentials.json",
+        ".htpasswd",
+        "app.config",
+        "web.config",
+        "application.properties",
+        "config.ini",
+        "secrets.json",
+        ".aws/credentials",
+        ".ssh/id_rsa",
+        "private.key"
+    ],
+
+    "sensitive_directories": [
+      "admin", "backup", "config", "uploads", "includes", 
+            "private", "logs", "temp", "cache"
+    ]
+}

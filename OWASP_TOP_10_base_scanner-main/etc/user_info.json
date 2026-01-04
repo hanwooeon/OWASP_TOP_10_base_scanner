@@ -1,0 +1,14 @@
+{
+  "host": "127.0.0.1",
+  "DB_ID": "root",
+  "DB_PW": "admin",
+  "DB_PORT": "3307",
+  "DB_NAME": "prestashop",
+  "web_url": "http://127.0.0.1:8081/",
+  "login_url": "http://127.0.0.1:8081/login",
+  "test_email": "ruqos@gmail.com",
+  "test_password": "ruqosruqos",
+  "admin_id": "ruqos@gmail.com",
+  "admin_pw": "ruqosruqo",
+  "Web_Dir": "/home/ruqos/Desktop/project/WEB/PrestaShop"
+}

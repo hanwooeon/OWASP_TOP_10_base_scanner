@@ -1,0 +1,17 @@
+# Web Security Scanner - Required Libraries
+# 웹 보안 스캐너 프로젝트 필수 라이브러리
+
+# HTTP 요청 및 웹 크롤링
+requests==2.32.5
+aiohttp==3.11.18
+beautifulsoup4==4.13.3
+bs4==0.0.2
+playwright==1.55.0
+requests-html==0.10.0
+
+# SSL/TLS 보안
+pyOpenSSL==25.1.0
+
+# 설치 방법:
+# pip install -r requirements.txt
+# playwright install chromium  # Playwright 브라우저 설치

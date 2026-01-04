@@ -1,0 +1,5 @@
+admin:admin
+root:root
+test:test
+ruqos@naver.com:ruqos
+ruqos@naver.com:zuTpAqnhNqk5@uV

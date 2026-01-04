@@ -1,0 +1,22 @@
+{
+    "input_types" : [
+        "text",
+        "email",
+        "password",
+        "number",
+        "search",
+        "tel",
+        "url",
+        "date"
+    ],
+    "non_input_types" : [
+        "submit",
+        "hidden",
+        "button",
+        "reset",
+        "image",
+        "checkbox",
+        "radio",
+        "file"
+    ]
+}

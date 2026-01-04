@@ -1,0 +1,38 @@
+# 인증 관련
+/login
+/signin
+/auth
+/authenticate
+
+# 계정 관리
+/register
+/signup
+/forgot
+/reset
+/change-password
+/change_password
+
+# 결제 관련
+/payment
+/checkout
+/purchase
+/buy
+/order
+
+# 관리자 기능
+/admin
+/dashboard
+/manage
+/control
+
+# API 엔드포인트
+/api/login
+/api/auth
+/api/payment
+/api/admin
+/api/user
+
+# 사용자 정보 수정
+/profile/edit
+/account/update
+/settings

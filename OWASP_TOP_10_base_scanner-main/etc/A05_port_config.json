@@ -1,0 +1,40 @@
+{
+    "port_service_map": {
+        "21": "FTP",
+        "22": "SSH",
+        "23": "Telnet",
+        "25": "SMTP",
+        "53": "DNS",
+        "80": "HTTP",
+        "110": "POP3",
+        "139": "NetBIOS",
+        "143": "IMAP",
+        "443": "HTTPS",
+        "445": "SMB",
+        "3306": "MySQL",
+        "3389": "RDP",
+        "8080": "Custom HTTP",
+        "8443": "HTTPS (Alt)",
+        "10000": "Webmin"
+    },
+    
+    "risky_ports": [
+        21,
+        23,
+        445,
+        3389,
+        10000,
+        5000,
+        139,
+        3306,
+        1433,
+        8080,
+        8443
+    ],
+    
+    "scan_config": {
+        "default_start_port": 1,
+        "default_end_port": 1024,
+        "timeout": 0.1
+    }
+}

@@ -1,0 +1,1034 @@
+[
+  {
+    "url": "http://127.0.0.1:8080/brand/2-graphic-corner",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:23.346786"
+  },
+  {
+    "url": "http://127.0.0.1:8080/brand/2-graphic-corner",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:23.348661"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:23.553187"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:23.554061"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/1-2-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:23.778509"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/1-2-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:23.779392"
+  },
+  {
+    "url": "http://127.0.0.1:8080/best-sellers",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:24.021187"
+  },
+  {
+    "url": "http://127.0.0.1:8080/best-sellers",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:24.022055"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/가격 내림",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:24.325157"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/가격 내림",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:24.327208"
+  },
+  {
+    "url": "http://127.0.0.1:8080/4-16-the-adventure-begins-framed-poster.html#/19-dimension-40x60cm",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:24.618655"
+  },
+  {
+    "url": "http://127.0.0.1:8080/4-16-the-adventure-begins-framed-poster.html#/19-dimension-40x60cm",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:24.621172"
+  },
+  {
+    "url": "http://127.0.0.1:8080/registration",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:24.885115"
+  },
+  {
+    "url": "http://127.0.0.1:8080/registration",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:24.885474"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-2-hummingbird-printed-t-shirt.html#description",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:25.152493"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-2-hummingbird-printed-t-shirt.html#description",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:25.154367"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/ko/%EC%97%B0%EB%9D%BD%EC%A3%BC%EC%84%B8%EC%9A%94",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:25.374581"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/ko/%EC%97%B0%EB%9D%BD%EC%A3%BC%EC%84%B8%EC%9A%94",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:25.375541"
+  },
+  {
+    "url": "http://127.0.0.1:8080/my-account",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:25.616947"
+  },
+  {
+    "url": "http://127.0.0.1:8080/my-account",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:25.617819"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-3-hummingbird-printed-t-shirt.html#description",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:25.987956"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-3-hummingbird-printed-t-shirt.html#description",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:25.989388"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/contact-us",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:26.184697"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/contact-us",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:26.185671"
+  },
+  {
+    "url": "http://127.0.0.1:8080/3-13-the-best-is-yet-to-come-framed-poster.html#description",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:26.431155"
+  },
+  {
+    "url": "http://127.0.0.1:8080/3-13-the-best-is-yet-to-come-framed-poster.html#description",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:26.433675"
+  },
+  {
+    "url": "http://127.0.0.1:8080/8-home-accessories",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:26.764572"
+  },
+  {
+    "url": "http://127.0.0.1:8080/8-home-accessories",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:26.766163"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/1-delivery",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:27.004212"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/1-delivery",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:27.005130"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/5-secure-payment",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:27.204596"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/5-secure-payment",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:27.205462"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:27.432082"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:27.433784"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/2-legal-notice",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:27.664206"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/2-legal-notice",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:27.665079"
+  },
+  {
+    "url": "http://127.0.0.1:8080/brand/1-studio-design",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:28.041586"
+  },
+  {
+    "url": "http://127.0.0.1:8080/brand/1-studio-design",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:28.042725"
+  },
+  {
+    "url": "http://127.0.0.1:8080/6-mug-the-best-is-yet-to-come.html#description",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:28.319783"
+  },
+  {
+    "url": "http://127.0.0.1:8080/6-mug-the-best-is-yet-to-come.html#description",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:28.321825"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-1-hummingbird-printed-t-shirt.html#description",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:28.702778"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-1-hummingbird-printed-t-shirt.html#description",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:28.704196"
+  },
+  {
+    "url": "http://127.0.0.1:8080/8-mug-today-is-a-good-day.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:29.087949"
+  },
+  {
+    "url": "http://127.0.0.1:8080/8-mug-today-is-a-good-day.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:29.089575"
+  },
+  {
+    "url": "http://127.0.0.1:8080/contact-us",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:29.258645"
+  },
+  {
+    "url": "http://127.0.0.1:8080/contact-us",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:29.259478"
+  },
+  {
+    "url": "http://127.0.0.1:8080/3-the-best-is-yet-to-come-framed-poster.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:29.580408"
+  },
+  {
+    "url": "http://127.0.0.1:8080/3-the-best-is-yet-to-come-framed-poster.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:29.581678"
+  },
+  {
+    "url": "http://127.0.0.1:8080/10-24-brown-bear-cushion.html#/8-color-white",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:29.873159"
+  },
+  {
+    "url": "http://127.0.0.1:8080/10-24-brown-bear-cushion.html#/8-color-white",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:29.874829"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/3-terms-and-conditions-of-use",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:30.068402"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/3-terms-and-conditions-of-use",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:30.069242"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/5-women",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:30.313884"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/5-women",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:30.315164"
+  },
+  {
+    "url": "http://127.0.0.1:8080/9-23-mountain-fox-cushion.html#/11-color-black",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:30.667249"
+  },
+  {
+    "url": "http://127.0.0.1:8080/9-23-mountain-fox-cushion.html#/11-color-black",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:30.668942"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/ko/%EB%A1%9C%EA%B7%B8%EC%9D%B8?back=http%3A%2F%2F127.0.0.1%3A8080%2F",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:30.938674"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/ko/%EB%A1%9C%EA%B7%B8%EC%9D%B8?back=http%3A%2F%2F127.0.0.1%3A8080%2F",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:30.939631"
+  },
+  {
+    "url": "http://127.0.0.1:8080/14-hummingbird-vector-graphics.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:31.284732"
+  },
+  {
+    "url": "http://127.0.0.1:8080/14-hummingbird-vector-graphics.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:31.286355"
+  },
+  {
+    "url": "http://127.0.0.1:8080/15-pack-mug-framed-poster.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:31.569042"
+  },
+  {
+    "url": "http://127.0.0.1:8080/15-pack-mug-framed-poster.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:31.571473"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/3-the-best-is-yet-to-come-framed-poster.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:31.945314"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/3-the-best-is-yet-to-come-framed-poster.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:31.946634"
+  },
+  {
+    "url": "http://127.0.0.1:8080/19-customizable-mug.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:32.203320"
+  },
+  {
+    "url": "http://127.0.0.1:8080/19-customizable-mug.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:32.204946"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/1-1-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:32.423891"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/1-1-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:32.424754"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/8-home-accessories",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:32.761972"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/8-home-accessories",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:32.763559"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/내-계정",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:32.993834"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/내-계정",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:32.994750"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/7-stationery",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:33.304175"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/7-stationery",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:33.305499"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/1-delivery",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:33.501143"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/1-delivery",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:33.501950"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/1-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:33.731670"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/1-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:33.733170"
+  },
+  {
+    "url": "http://127.0.0.1:8080/12-mountain-fox-vector-graphics.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:34.023814"
+  },
+  {
+    "url": "http://127.0.0.1:8080/12-mountain-fox-vector-graphics.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:34.025361"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/4-about-us",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:34.228145"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/4-about-us",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:34.228968"
+  },
+  {
+    "url": "http://127.0.0.1:8080/3-clothes",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:34.606591"
+  },
+  {
+    "url": "http://127.0.0.1:8080/3-clothes",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:34.607985"
+  },
+  {
+    "url": "http://127.0.0.1:8080/password-recovery",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:34.788366"
+  },
+  {
+    "url": "http://127.0.0.1:8080/password-recovery",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:34.789194"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/비밀번호 복구",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:35.031576"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/비밀번호 복구",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:35.032480"
+  },
+  {
+    "url": "http://127.0.0.1:8080/2-9-brown-bear-printed-sweater.html#product-details",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:35.414126"
+  },
+  {
+    "url": "http://127.0.0.1:8080/2-9-brown-bear-printed-sweater.html#product-details",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:35.414592"
+  },
+  {
+    "url": "http://127.0.0.1:8080/6-accessories",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:35.812166"
+  },
+  {
+    "url": "http://127.0.0.1:8080/6-accessories",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:35.813578"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/3-clothes",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:36.178758"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/3-clothes",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:36.180216"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/module/ps_emailalerts/account",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:36.426701"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/module/ps_emailalerts/account",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:36.427624"
+  },
+  {
+    "url": "http://127.0.0.1:8080/stores",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:36.634336"
+  },
+  {
+    "url": "http://127.0.0.1:8080/stores",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:36.635357"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/1-3-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:36.876333"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/1-3-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:36.877204"
+  },
+  {
+    "url": "http://127.0.0.1:8080/5-women",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:37.137619"
+  },
+  {
+    "url": "http://127.0.0.1:8080/5-women",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:37.138890"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/신상품",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:37.361914"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/신상품",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:37.362844"
+  },
+  {
+    "url": "http://127.0.0.1:8080/#carousel",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:37.621631"
+  },
+  {
+    "url": "http://127.0.0.1:8080/#carousel",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:37.623144"
+  },
+  {
+    "url": "http://127.0.0.1:8080/4-men",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:37.973155"
+  },
+  {
+    "url": "http://127.0.0.1:8080/4-men",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:37.974330"
+  },
+  {
+    "url": "http://127.0.0.1:8080/9-22-mountain-fox-cushion.html#/8-color-white",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:38.225494"
+  },
+  {
+    "url": "http://127.0.0.1:8080/9-22-mountain-fox-cushion.html#/8-color-white",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:38.227138"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:38.610155"
+  },
+  {
+    "url": "http://127.0.0.1:8080/1-hummingbird-printed-t-shirt.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:38.611573"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/4-men",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:38.934767"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/4-men",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:38.936047"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/3-terms-and-conditions-of-use",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:39.166427"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/3-terms-and-conditions-of-use",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:39.167340"
+  },
+  {
+    "url": "http://127.0.0.1:8080/new-products",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:39.415992"
+  },
+  {
+    "url": "http://127.0.0.1:8080/new-products",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:39.416859"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/contact-us",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:39.566401"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/contact-us",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:39.567254"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/6-accessories",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:39.947286"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/6-accessories",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:39.949217"
+  },
+  {
+    "url": "http://127.0.0.1:8080/9-art",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:40.237663"
+  },
+  {
+    "url": "http://127.0.0.1:8080/9-art",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:40.239041"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/3-13-the-best-is-yet-to-come-framed-poster.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:40.443181"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/3-13-the-best-is-yet-to-come-framed-poster.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:40.444045"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/2-brown-bear-printed-sweater.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:40.748697"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/2-brown-bear-printed-sweater.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:40.750185"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:40.995760"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/로그인?back=http://127.0.0.1:8080/",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:40.996684"
+  },
+  {
+    "url": "http://127.0.0.1:8080/sitemap",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:41.195468"
+  },
+  {
+    "url": "http://127.0.0.1:8080/sitemap",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:41.196341"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/2-9-brown-bear-printed-sweater.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:41.421011"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/2-9-brown-bear-printed-sweater.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:41.421872"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/연락주세요",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:41.663534"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/연락주세요",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:41.664472"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/2-legal-notice",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:41.954575"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/2-legal-notice",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:41.955367"
+  },
+  {
+    "url": "http://127.0.0.1:8080/5-19-today-is-a-good-day-framed-poster.html#/19-dimension-40x60cm",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:42.227046"
+  },
+  {
+    "url": "http://127.0.0.1:8080/5-19-today-is-a-good-day-framed-poster.html#/19-dimension-40x60cm",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:42.228372"
+  },
+  {
+    "url": "http://127.0.0.1:8080/13-brown-bear-vector-graphics.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:42.461379"
+  },
+  {
+    "url": "http://127.0.0.1:8080/13-brown-bear-vector-graphics.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:42.462499"
+  },
+  {
+    "url": "http://127.0.0.1:8080/2-brown-bear-printed-sweater.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:42.712423"
+  },
+  {
+    "url": "http://127.0.0.1:8080/2-brown-bear-printed-sweater.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:42.713834"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/6-mug-the-best-is-yet-to-come.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:42.925253"
+  },
+  {
+    "url": "http://127.0.0.1:8080/login?back=http://127.0.0.1:8080/6-mug-the-best-is-yet-to-come.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:42.926114"
+  },
+  {
+    "url": "http://127.0.0.1:8080/7-stationery",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:43.186497"
+  },
+  {
+    "url": "http://127.0.0.1:8080/7-stationery",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:43.187720"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/비회원-추적",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:43.377299"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/비회원-추적",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:43.378191"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/5-secure-payment",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:43.526844"
+  },
+  {
+    "url": "http://127.0.0.1:8080/content/5-secure-payment",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:43.527637"
+  },
+  {
+    "url": "http://127.0.0.1:8080/module/ps_emailalerts/account",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:43.803043"
+  },
+  {
+    "url": "http://127.0.0.1:8080/module/ps_emailalerts/account",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:43.803913"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/상점",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:44.045674"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/상점",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:44.046764"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/6-mug-the-best-is-yet-to-come.html",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:44.309431"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/6-mug-the-best-is-yet-to-come.html",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:44.311147"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/베스트셀러",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:44.530600"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/베스트셀러",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:44.531602"
+  },
+  {
+    "url": "http://127.0.0.1:8080/prices-drop",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:44.965657"
+  },
+  {
+    "url": "http://127.0.0.1:8080/prices-drop",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:44.966888"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/4-about-us",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:45.164893"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/content/4-about-us",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:45.165790"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/9-art",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:45.476763"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/9-art",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:45.478533"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/등록",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:45.686808"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/등록",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:45.687161"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/사이트맵",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:46.028277"
+  },
+  {
+    "url": "http://127.0.0.1:8080/ko/사이트맵",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:46.028597"
+  },
+  {
+    "url": "http://127.0.0.1:8080/guest-tracking",
+    "method": "GET",
+    "issue": "민감한 헤더 노출: ['Server']",
+    "timestamp": "2025-10-07T12:37:46.201588"
+  },
+  {
+    "url": "http://127.0.0.1:8080/guest-tracking",
+    "method": "GET",
+    "issue": "보안 헤더 누락: ['X-Frame-Options', 'X-Content-Type-Options', 'X-XSS-Protection', 'Strict-Transport-Security', 'Content-Security-Policy']",
+    "timestamp": "2025-10-07T12:37:46.202415"
+  }
+]

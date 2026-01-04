@@ -1,0 +1,157 @@
+{
+  "scan_metadata": {
+    "scan_id": "",
+    "target": "",
+    "start_time": "",
+    "end_time": ""
+  },
+  "summary": {
+    "total_tests": 0,
+    "total_vulnerabilities": 0,
+    "risk_distribution": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "INFO": 0
+    },
+    "scan_time": "",
+    "target_url": "",
+    "target_folder": ""
+  },
+  "categories": {
+    "A01": {
+      "category_name": "Broken Access Control",
+      "tests": [
+        {
+          "test_id": "A01-01",
+          "test_name": "CSRF Protection",
+          "risk_level": "HIGH",
+          "description":"",
+          "details": []
+        }
+      ]
+    },
+    "A02": {
+      "category_name": "Cryptographic Failures",
+      "tests": [
+        {
+          "test_id": "A02-01",
+          "test_name": "Check_cryptographic",
+          "risk_level": "HIGH",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A02-02",
+          "test_name": "Check_https",
+          "risk_level": "MEDIUM",
+          "description": "",
+          "details": []
+        }
+      ]
+    },
+    "A03": {
+      "category_name": "Injection",
+      "tests": [
+        {
+          "test_id": "A03-01",
+          "test_name": "XSS Vulnerabilities",
+          "risk_level": "HIGH",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A03-02",
+          "test_name": "SQL Injection",
+          "risk_level": "CRITICAL",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A03-03",
+          "test_name": "Command Injection",
+          "risk_level": "CRITICAL",
+          "description": "",
+          "details": []
+        }
+      ]
+    },
+    "A04": {
+      "category_name": "Insecure Design",
+      "tests": [
+        {
+          "test_id": "A04-01",
+          "test_name": "Rate_Limit",
+          "risk_level": "MEDIUM",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A04-02",
+          "test_name": "Insufficient_access_control",
+          "risk_level": "HIGH",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A04-03",
+          "test_name": "Permission_bypass",
+          "risk_level": "CRITICAL",
+          "description": "",
+          "details": []
+        }
+      ]
+    },
+    "A05": {
+      "category_name": "Security Misconfiguration",
+      "tests": [
+        {
+          "test_id": "A05-01",
+          "test_name": "Check_vulnerable",
+          "risk_level": "HIGH",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A05-02",
+          "test_name": "Port_Security",
+          "risk_level": "MEDIUM",
+          "description": "",
+          "details": []
+        },
+        {
+          "test_id": "A05-03",
+          "test_name": "Default",
+          "risk_level": "LOW",
+          "description": "",
+          "details": []
+        }
+      ]
+    },
+    "A06": {
+      "category_name": "Vulnerable and Outdated Components",
+      "tests": [
+        {
+          "test_id": "A06-01",
+          "test_name": "Vulnerable Library Detection",
+          "risk_level": "HIGH",
+          "description": "",
+          "details": []
+        }
+      ]
+    },
+    "A07": {
+      "category_name": "Identification and Authentication Failures",
+      "tests": [
+        {
+          "test_id": "A07-01",
+          "test_name": "Session Management Flaw",
+          "risk_level": "HIGH",
+          "description": "",
+          "details": []
+        }
+      ]
+    }
+  }
+}

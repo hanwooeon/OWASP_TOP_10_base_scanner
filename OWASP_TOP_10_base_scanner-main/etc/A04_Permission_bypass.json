@@ -1,0 +1,53 @@
+{
+    "test_cookies": {
+        "role": "admin",
+        "isAdmin": "true",
+        "admin": "true",
+        "auth": "admin",
+        "access_level": "10",
+        "user_role": "administrator",
+        "privileges": "admin"
+    },
+
+    "id_patterns": [
+        "{}",            
+        "?id={}",        
+        "?user_id={}",   
+        "?userid={}",   
+        "?uid={}",      
+        "?account={}",   
+        "?member={}"    
+    ],
+
+    "user_keywords": [
+        "profile", 
+        "account", 
+        "email", 
+        "phone", 
+        "address", 
+        "user info", 
+        "사용자 정보", 
+        "이메일", 
+        "전화번호", 
+        "주소"
+    ],
+
+    "default_urls": [
+        "/admin", 
+        "/administrator", 
+        "/adminpanel", 
+        "/dashboard",
+        "/user", "/users", "/profile", "/settings", "/account"
+    ],
+
+    "admin_urls": [
+        "/admin", 
+        "/administrator", 
+        "/adminpanel", 
+        "/dashboard",
+        "/control", 
+        "/controlpanel", 
+        "/wp-admin", 
+        "/admin.php"
+    ]
+}

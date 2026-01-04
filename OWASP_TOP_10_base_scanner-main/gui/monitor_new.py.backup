@@ -1,0 +1,240 @@
+"""
+새로운 GUI 모니터 - 모듈화된 구조
+보안 취약점 검사 도구의 메인 GUI 애플리케이션
+"""
+import tkinter as tk
+import sys
+import os
+from tkinter import messagebox
+
+# 현재 디렉토리를 Python 경로에 추가
+current_dir = os.path.dirname(__file__)
+sys.path.append(current_dir)
+sys.path.append(os.path.join(current_dir, '..'))
+
+# 세그멘테이션 오류 방지를 위한 환경 설정
+os.environ['TK_SILENCE_DEPRECATION'] = '1'
+
+# CustomTkinter 비활성화 (세그멘테이션 오류 방지)
+# 환경 변수로 CustomTkinter 사용 여부를 제어할 수 있습니다
+# 예: USE_CUSTOMTKINTER=1 python3 run_monitor.py
+USE_CUSTOMTKINTER = os.environ.get('USE_CUSTOMTKINTER', '0') == '1'
+
+CTK_AVAILABLE = False
+if USE_CUSTOMTKINTER:
+    try:
+        import customtkinter as ctk
+
+        # 안전한 테마 설정
+        try:
+            ctk.set_appearance_mode("light")  # system 대신 light 사용
+            ctk.set_default_color_theme("blue")
+            CTK_AVAILABLE = True
+            print("✅ CustomTkinter 로드 성공")
+            print("✅ CustomTkinter 테마 설정 완료")
+        except Exception as e:
+            print(f"⚠️ CustomTkinter 테마 설정 실패: {e}")
+            CTK_AVAILABLE = False
+
+    except ImportError as e:
+        print(f"⚠️ CustomTkinter 로드 실패: {e}")
+        print("📌 tkinter로 폴백하여 실행합니다")
+        CTK_AVAILABLE = False
+else:
+    print("📌 표준 tkinter 모드로 실행합니다 (CustomTkinter 비활성화)")
+
+# 로컬 모듈 import
+try:
+    from main_window import MainWindow
+    from components import UIComponents
+    from utils import load_user_info, validate_url
+    print("✅ 로컬 모듈 로드 성공")
+except ImportError as e:
+    print(f"❌ 로컬 모듈 로드 실패: {e}")
+    messagebox.showerror("모듈 오류", f"GUI 모듈을 로드할 수 없습니다: {e}")
+    sys.exit(1)
+
+class SecurityTestGUI:
+    """보안 검사 GUI 메인 클래스"""
+    
+    def __init__(self):
+        self.root = None
+        self.main_window = None
+        
+        # 안전한 초기화
+        if not self.setup_root_window():
+            raise Exception("윈도우 초기화 실패")
+            
+        try:
+            print("🔧 MainWindow 초기화 시작...")
+            self.main_window = MainWindow(self.root)
+            print("✅ MainWindow 초기화 완료")
+        except Exception as e:
+            print(f"⚠️ MainWindow 초기화 실패: {e}")
+            import traceback
+            traceback.print_exc()
+            self.main_window = None
+            
+        self.setup_error_handling()
+        
+    def setup_root_window(self):
+        """루트 윈도우 설정"""
+        try:
+            # CustomTkinter 사용하지 않고 표준 tkinter만 사용
+            # (세그멘테이션 오류 방지)
+            self.root = tk.Tk()
+            print("✅ Tkinter 윈도우 생성")
+
+            # 기본 설정
+            self.root.title("🛡️ 보안 취약점 검사 도구 v2.0")
+            self.root.geometry("900x700")
+
+            # 최소 창 크기 설정
+            self.root.minsize(800, 600)
+
+            # 창 닫기 이벤트 처리
+            self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+
+            return True
+
+        except Exception as e:
+            print(f"❌ 윈도우 설정 실패: {e}")
+            return False
+        
+    def setup_error_handling(self):
+        """전역 에러 핸들링 설정"""
+        def handle_exception(exc_type, exc_value, exc_traceback):
+            if issubclass(exc_type, KeyboardInterrupt):
+                sys.__excepthook__(exc_type, exc_value, exc_traceback)
+                return
+                
+            error_msg = f"예상치 못한 오류가 발생했습니다:\n\n{exc_type.__name__}: {exc_value}"
+            print(f"❌ 전역 예외: {error_msg}")
+            
+            # GUI가 아직 살아있다면 메시지 박스 표시
+            try:
+                messagebox.showerror("오류", error_msg)
+            except:
+                print("GUI 응답 없음 - 콘솔로만 출력")
+                
+        sys.excepthook = handle_exception
+        
+    def run(self):
+        """GUI 실행"""
+        try:
+            print("🚀 GUI 시작...")
+            
+            # 윈도우 설정 확인
+            if not hasattr(self, 'root') or self.root is None:
+                print("❌ 윈도우가 초기화되지 않았습니다.")
+                return
+            
+            # 설정 파일 확인
+            self.check_configuration()
+            
+            print("🔧 UI 구성 시작...")
+            
+            # 메인 UI 설정 (안전하게)
+            try:
+                if self.main_window:
+                    print("🔧 메인 UI 설정 시작...")
+                    self.main_window.setup_main_ui()
+                    print("✅ GUI 초기화 완료")
+                else:
+                    print("⚠️ MainWindow가 없어서 기본 UI로 설정")
+                    self.setup_fallback_ui()
+            except Exception as ui_error:
+                print(f"❌ UI 초기화 실패: {ui_error}")
+                import traceback
+                traceback.print_exc()
+                # UI 초기화 실패 시 기본 UI로 폴백
+                self.setup_fallback_ui()
+            
+            # 메인 루프 실행
+            self.root.mainloop()
+            
+        except Exception as e:
+            error_msg = f"GUI 시작 중 오류 발생: {e}"
+            print(f"❌ {error_msg}")
+            try:
+                messagebox.showerror("시작 오류", error_msg)
+            except:
+                pass
+            
+    def check_configuration(self):
+        """설정 파일 확인 및 초기화"""
+        try:
+            config = load_user_info()
+            
+            # 필수 디렉토리 생성
+            required_dirs = ["etc", "logs", "results"]
+            for dir_name in required_dirs:
+                dir_path = os.path.join(os.path.dirname(current_dir), dir_name)
+                os.makedirs(dir_path, exist_ok=True)
+                
+            print("✅ 설정 확인 완료")
+            
+        except Exception as e:
+            print(f"⚠️ 설정 확인 실패: {e}")
+            
+    def setup_fallback_ui(self):
+        """기본 폴백 UI 설정"""
+        try:
+            print("🔄 기본 UI로 폴백 중...")
+
+            # 표준 tkinter 라벨 사용
+            label = tk.Label(
+                self.root,
+                text="🛡️ 보안 취약점 검사 도구\n\nUI 초기화 중 문제가 발생했습니다.\n기본 모드로 실행 중입니다.",
+                font=("Arial", 14),
+                justify="center"
+            )
+            label.pack(expand=True)
+
+            print("✅ 기본 UI 설정 완료")
+
+        except Exception as e:
+            print(f"❌ 기본 UI 설정도 실패: {e}")
+            
+    def on_closing(self):
+        """창 닫기 이벤트 처리"""
+        try:
+            # 실행 중인 테스트가 있는지 확인
+            if hasattr(self.main_window, 'dast_view') and hasattr(self.main_window.dast_view, 'test_runner'):
+                if self.main_window.dast_view.test_runner.is_testing:
+                    if messagebox.askyesno("확인", "검사가 진행 중입니다. 정말로 종료하시겠습니까?"):
+                        # 테스트 중지
+                        self.main_window.dast_view.test_runner.stop_test()
+                        self.root.after(1000, self.root.destroy)  # 1초 후 종료
+                    return
+                    
+            self.root.destroy()
+            
+        except Exception as e:
+            print(f"⚠️ 종료 처리 중 오류: {e}")
+            self.root.destroy()
+
+def main():
+    """메인 함수"""
+    print("=" * 50)
+    print("🛡️  보안 취약점 검사 도구 GUI v2.0")
+    print("=" * 50)
+    
+    try:
+        # GUI 인스턴스 생성 및 실행
+        app = SecurityTestGUI()
+        app.run()
+        
+    except KeyboardInterrupt:
+        print("\n🛑 사용자에 의해 중단되었습니다.")
+        
+    except Exception as e:
+        print(f"❌ 애플리케이션 실행 실패: {e}")
+        import traceback
+        traceback.print_exc()
+        
+    finally:
+        print("👋 애플리케이션 종료")
+
+if __name__ == "__main__":
+    main()

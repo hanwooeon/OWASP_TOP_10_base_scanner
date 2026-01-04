@@ -1,0 +1,56 @@
+{
+    "vulnerable_headers": [
+        "Server",
+        "X-Powered-By",
+        "X-AspNet-Version",
+        "X-AspNetMvc-Version",
+        "X-Generator",
+        "X-Runtime",
+        "X-Version",
+        "X-Drupal-Version",
+        "X-Magento-Version",
+        "X-WordPress-Version",
+        "Via",
+        "X-Varnish",
+        "X-Pingback",
+        "X-CF-Powered-By",
+        "X-Mod-Pagespeed"
+    ],
+    
+    "error_keywords": [
+        "traceback",
+        "exception",
+        "stacktrace",
+        "error on line",
+        "syntaxerror",
+        "fatal error",
+        "mysql",
+        "postgresql",
+        "sqlite",
+        "connection failed",
+        "access denied",
+        "file not found",
+        "permission denied",
+        "apache",
+        "nginx",
+        "iis",
+        "php warning",
+        "php error",
+        "php fatal",
+        "java.lang",
+        "system.exception"
+    ],
+    
+    "security_headers": {
+        "X-Frame-Options": "Clickjacking 방지",
+        "X-Content-Type-Options": "MIME 타입 스니핑 방지",
+        "X-XSS-Protection": "XSS 보호",
+        "Strict-Transport-Security": "HTTPS 강제",
+        "Content-Security-Policy": "CSP"
+    },
+    
+    "directory_listing_indicators": [
+        "index of",
+        "parent directory"
+    ]
+}
